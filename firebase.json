@@ -1,6 +1,11 @@
 {
   "hosting": {
-    "public": "public",
+    "redirects": [ {
+  "source": "index.html",
+  "destination": "/",
+  "type": 301
+}],
+    "public": "/",
     "ignore": [
       "firebase.json",
       "**/.*",
