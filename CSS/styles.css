@@ -1,0 +1,47 @@
+p {
+  color: red;
+}
+head {
+  font-family: sans-serif;
+}
+body {
+  background-color: #FFFAFA;
+  font-family: sans-serif;
+  }
+
+hr {
+  background-color: #63CFEA;
+  width: auto;;
+  height: 2px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #009CD1;
+  font-family: sans-serif;
+}
+/*******************class*************/
+/*
+.lola {
+  background-color: blue;
+}
+*/
+/*******************id*************/
+/*
+#heading {
+  color: red;
+}
+*/
+a:hover {
+  background-color: yellow;
+}
+
+#h1:hover {
+  color: blue;
+}
+#h2:hover {
+  color: blue;
+}
+#h3:hover {
+  color: blue;
+}
