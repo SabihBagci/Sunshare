@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script type="text/javascript">
+    if(localStorage.getItem("Welcome Onboard!")==null){
+      alert("Welcome Onboard!");
+   localStorage.setItem("Welcome Onboard!","done");
+}
+    </script>
+
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>Sunshare Platform</title>
@@ -16,6 +23,7 @@
 <hr>
   </head>
   <body>
+    <script  src="./script.js"></script>
     <table cellspacing="10">
       <td><h4 id="h1">Stay in touch, because:</h4>
       <h4 id="h2"><em>This Web Platform Will Be Awesome!</em></h4>
@@ -69,6 +77,6 @@
       <p>-
         <p>This web page is under construction.</p>
         <p>İstanbul - 2022</p>
-      -</p>
+      </p>
   </body>
 </html>
