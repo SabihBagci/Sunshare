@@ -1,11 +1,5 @@
 html{
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #003073), color-stop(100%, #029797));
-  background-image: -webkit-linear-gradient(135deg, #003073, #029797);
-  background-image: -moz-linear-gradient(45deg, #003073, #029797);
-  background-image: -ms-linear-gradient(45deg, #003073 0, #029797 100%);
-  background-image: -o-linear-gradient(45deg, #003073, #029797);
-  background-image: linear-gradient(135deg, #003073, #029797);
+  font-family: 'Montserrat', sans-serif;
 }
 p {
   color: #8abf20;
@@ -21,7 +15,36 @@ head{
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  }
+
+  background: linear-gradient(-45deg, #63cfea, #FEF250, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+-webkit-animation: gradient 25s ease infinite;
+        animation: gradient 20s ease infinite;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 h1 {
   color: #8abf20;
 }
@@ -50,3 +73,32 @@ textarea{
 .passwordInput{
   font-family: 'Montserrat', sans-serif;
 }
+
+/*<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+background-size: 100%;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #003073), color-stop(100%, #029797));
+background-image: -webkit-linear-gradient(135deg, #003073, #029797);
+background-image: -moz-linear-gradient(45deg, #003073, #029797);
+background-image: -ms-linear-gradient(45deg, #003073 0, #029797 100%);
+background-image: -o-linear-gradient(45deg, #003073, #029797);
+background-image: linear-gradient(135deg, #003073, #029797);
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+*/
